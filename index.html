@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- google fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: white; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="image-container">
+      <img src="images/image-equilibrium.jpg" alt="Equilibrium" class="nft-image">
+      <div class="overlay">
+        <img src="images/icon-view.svg" alt="view">
+      </div>
+    </div>
+    <h1 class="nft-title"><a href="#">Equilibrium #3429</a></h1>
+    <p class="description">Our Equilibrium collection promotes balance and calm.</p>
+    <div class="crypto-info">
+      <div class="crypto">
+        <img class="crypto-icon" src="images/icon-ethereum.svg" alt="icon-ethereum">
+        <p class="crypto-name">0.041 ETH</p>
+      </div>
+      <div class="date-container">
+        <img class="clock-icon" src="images/icon-clock.svg" alt="clock">
+        <p class="date">3 days left</p>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="creator-info">
+      <img src="images/image-avatar.png" alt="avatar" class="creator-img">
+      <p class="creator-name">Creation of <a class="creator-link" href="#">Jules Wyvern</a></p>
+    </div>
+  </div>
+</body>
+</html>
